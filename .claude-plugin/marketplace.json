@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "aleksander-plugins",
+  "description": "Claude Code plugins by Aleksander Nowak (netin.pro).",
+  "owner": {
+    "name": "Aleksander Nowak",
+    "email": "anowak@netin.pro"
+  },
+  "plugins": [
+    {
+      "name": "claude-codex-synapse",
+      "source": { "source": "github", "repo": "aleksanderarielnowak/claude-codex-synapse" },
+      "description": "Synapse — Claude x Codex brain/hands collaboration: auto-delegate fetch, Excel, AI images, pandoc/docx, bulk + browser work; review conclusions; self-improving.",
+      "repository": "https://github.com/aleksanderarielnowak/claude-codex-synapse",
+      "license": "MIT",
+      "keywords": ["codex", "orchestration", "automation", "multi-agent", "delegation"]
+    }
+  ]
+}
