@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
-  "name": "aleksander-plugins",
+  "name": "alek-claude-plugins",
   "description": "Claude Code plugins by Aleksander Nowak (netin.pro).",
   "owner": {
     "name": "Aleksander Nowak",

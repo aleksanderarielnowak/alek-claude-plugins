@@ -1,15 +1,15 @@
-# aleksander-plugins
+# alek-claude-plugins
 
 Marketplace plug­inów do **Claude Code** — kolekcja Aleksandra Nowaka (netin.pro).
 
 ## Instalacja
 
 ```
-/plugin marketplace add aleksanderarielnowak/aleksander-plugins
-/plugin install claude-codex-synapse@aleksander-plugins
+/plugin marketplace add aleksanderarielnowak/alek-claude-plugins
+/plugin install claude-codex-synapse@alek-claude-plugins
 ```
 
-Aktualizacja listy: `/plugin marketplace update aleksander-plugins`
+Aktualizacja listy: `/plugin marketplace update alek-claude-plugins`
 
 ## Pluginy
 
@@ -21,6 +21,6 @@ Aktualizacja listy: `/plugin marketplace update aleksander-plugins`
 
 1. Zbuduj plugin we własnym repo (z `.claude-plugin/plugin.json` + `skills/`, `commands/`, `.mcp.json`, …; komponenty w korzeniu pluginu, NIE w `.claude-plugin/`).
 2. Dorzuć wpis do `.claude-plugin/marketplace.json` z `source: { "source": "github", "repo": "owner/repo" }`.
-3. Commit + push. Użytkownicy dostaną go po `/plugin marketplace update aleksander-plugins`.
+3. Commit + push. Użytkownicy dostaną go po `/plugin marketplace update alek-claude-plugins`.
 
 > Wersjonowanie: pomijamy `version` w aktywnym rozwoju — Claude Code używa commit SHA, więc każdy push = nowa wersja, bez ręcznego bumpowania.
