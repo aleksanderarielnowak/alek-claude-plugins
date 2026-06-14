@@ -1,6 +1,6 @@
 # alek-claude-plugins
 
-Marketplace plug­inów do **Claude Code** — kolekcja Aleksandra Nowaka (netin.pro).
+Marketplace plug­inów do **Claude Code** — kolekcja Aleksandra Nowaka.
 
 ## Instalacja
 
