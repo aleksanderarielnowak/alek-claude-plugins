@@ -16,6 +16,7 @@ Aktualizacja listy: `/plugin marketplace update alek-claude-plugins`
 | Plugin | Opis | Repo |
 |---|---|---|
 | **claude-codex-synapse** | Synapse — współpraca Claude × Codex (mózg/ręce): auto-delegacja fetch, Excel, obrazów AI, pandoc/docx, bulk + przeglądarka; tryb REVIEW; samodoskonalenie. | `aleksanderarielnowak/claude-codex-synapse` |
+| **seodyseusz-gsc** | Google Search Console przez API (Service Account): `/gsc:setup`, `/gsc:query`, `/gsc:sitemaps`, `/gsc:inspect`, `/gsc:report`. Jeden klucz robota = usługi z wielu kont Google (rejestr `--client`). Standalone i jako moduł GSC dla seodyseusz. | `aleksanderarielnowak/seodyseusz-gsc` |
 
 ## Dodanie nowego pluginu (na przyszłość)
 

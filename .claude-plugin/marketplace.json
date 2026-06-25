@@ -14,6 +14,14 @@
       "repository": "https://github.com/aleksanderarielnowak/claude-codex-synapse",
       "license": "MIT",
       "keywords": ["codex", "orchestration", "automation", "multi-agent", "delegation"]
+    },
+    {
+      "name": "seodyseusz-gsc",
+      "source": { "source": "github", "repo": "aleksanderarielnowak/seodyseusz-gsc" },
+      "description": "Google Search Console dla Claude Code — wrapper API (Service Account) ze slash commands /gsc:setup, /gsc:query, /gsc:sitemaps, /gsc:inspect, /gsc:report. Jeden klucz robota obsługuje usługi z wielu kont Google (rejestr --client). Standalone i jako moduł GSC dla seodyseusz.",
+      "repository": "https://github.com/aleksanderarielnowak/seodyseusz-gsc",
+      "license": "MIT",
+      "keywords": ["seo", "google-search-console", "gsc", "audit", "search-analytics", "seodyseusz"]
     }
   ]
 }
