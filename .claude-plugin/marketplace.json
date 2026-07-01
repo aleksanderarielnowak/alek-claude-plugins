@@ -22,6 +22,14 @@
       "repository": "https://github.com/aleksanderarielnowak/seodyseusz-gsc",
       "license": "MIT",
       "keywords": ["seo", "google-search-console", "gsc", "audit", "search-analytics", "seodyseusz"]
+    },
+    {
+      "name": "claude-codex-webdev-inc",
+      "source": { "source": "github", "repo": "aleksanderarielnowak/claude-codex-webdev-inc" },
+      "description": "Buduje i modyfikuje strony WordPress/Elementor od zera — od źródła o firmie (WWW/social/GMB/NIP) przez research po gotową, edytowalną lokalną stronę. Dwa tory buildu (natywny Elementor / HTML-section), playbooki branżowe, biblioteka sekcji, hardened recipes i QA headless. Współpracuje z claude-codex-synapse.",
+      "repository": "https://github.com/aleksanderarielnowak/claude-codex-webdev-inc",
+      "license": "MIT",
+      "keywords": ["wordpress", "elementor", "webdev", "site-builder", "gmb", "local-wp", "codex", "synapse"]
     }
   ]
 }
