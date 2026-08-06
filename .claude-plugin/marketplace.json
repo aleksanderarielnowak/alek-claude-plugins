@@ -26,10 +26,10 @@
     {
       "name": "claude-codex-webdev-inc",
       "source": { "source": "github", "repo": "aleksanderarielnowak/claude-codex-webdev-inc" },
-      "description": "Buduje i modyfikuje strony WordPress/Elementor od zera — od źródła o firmie (WWW/social/GMB/NIP) przez research po gotową, edytowalną lokalną stronę. Dwa tory buildu (natywny Elementor / HTML-section), playbooki branżowe, biblioteka sekcji, hardened recipes i QA headless. Współpracuje z claude-codex-synapse.",
+      "description": "Buduje i modyfikuje strony WordPress od zera — od źródła o firmie (WWW/social/GMB/NIP) przez research po gotową, edytowalną stronę. Metoda nadrzędna: budowa SEKCJAMI komponentami buildera (plan sekcji → sekcja po sekcji → weryfikacja po każdej), z drabiną wykonania builder → builder+wtyczka → blok HTML jako udokumentowany wyjątek. Domyślnie natywny Elementor, z autonomicznym wyborem innego stosu (Bricks, Divi, Breakdance, Oxygen, Blocksy, GeneratePress, Kadence, WooCommerce) gdy brief tego wymaga. Playbooki branżowe, biblioteka sekcji, hardened recipes i QA headless. Współpracuje z claude-codex-synapse.",
       "repository": "https://github.com/aleksanderarielnowak/claude-codex-webdev-inc",
       "license": "MIT",
-      "keywords": ["wordpress", "elementor", "webdev", "site-builder", "gmb", "local-wp", "codex", "synapse"]
+      "keywords": ["wordpress", "elementor", "gutenberg", "webdev", "site-builder", "gmb", "local-wp", "codex", "synapse"]
     }
   ]
 }

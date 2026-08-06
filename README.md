@@ -17,6 +17,7 @@ Aktualizacja listy: `/plugin marketplace update alek-claude-plugins`
 |---|---|---|
 | **claude-codex-synapse** | Synapse — współpraca Claude × Codex (mózg/ręce): auto-delegacja fetch, Excel, obrazów AI, pandoc/docx, bulk + przeglądarka; tryb REVIEW; samodoskonalenie. | `aleksanderarielnowak/claude-codex-synapse` |
 | **seodyseusz-gsc** | Google Search Console przez API (Service Account): `/gsc:setup`, `/gsc:query`, `/gsc:sitemaps`, `/gsc:inspect`, `/gsc:report`. Jeden klucz robota = usługi z wielu kont Google (rejestr `--client`). Standalone i jako moduł GSC dla seodyseusz. | `aleksanderarielnowak/seodyseusz-gsc` |
+| **claude-codex-webdev-inc** | Budowa i modyfikacja stron WordPress od zera (źródło o firmie → research → gotowa, edytowalna strona). Metoda nadrzędna: budowa **sekcjami** komponentami buildera, drabina builder → builder+wtyczka → blok HTML jako wyjątek. Playbooki branżowe, biblioteka sekcji, hardened recipes, QA headless. | `aleksanderarielnowak/claude-codex-webdev-inc` |
 
 ## Dodanie nowego pluginu (na przyszłość)
 
