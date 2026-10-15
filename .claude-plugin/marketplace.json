@@ -9,27 +9,89 @@
   "plugins": [
     {
       "name": "claude-codex-synapse",
-      "source": { "source": "github", "repo": "aleksanderarielnowak/claude-codex-synapse" },
+      "source": {
+        "source": "github",
+        "repo": "aleksanderarielnowak/claude-codex-synapse"
+      },
       "description": "Synapse — Claude x Codex brain/hands collaboration: auto-delegate fetch, Excel, AI images, pandoc/docx, bulk + headless browser automation (Codex authors the Edge+CDP harness, Claude runs it); review conclusions; self-improving.",
       "repository": "https://github.com/aleksanderarielnowak/claude-codex-synapse",
       "license": "MIT",
-      "keywords": ["codex", "orchestration", "automation", "multi-agent", "delegation", "headless-browser"]
+      "keywords": [
+        "codex",
+        "orchestration",
+        "automation",
+        "multi-agent",
+        "delegation",
+        "headless-browser"
+      ]
     },
     {
       "name": "seodyseusz-gsc",
-      "source": { "source": "github", "repo": "aleksanderarielnowak/seodyseusz-gsc" },
+      "source": {
+        "source": "github",
+        "repo": "aleksanderarielnowak/seodyseusz-gsc"
+      },
       "description": "Google Search Console dla Claude Code — wrapper API (Service Account) ze slash commands /gsc:setup, /gsc:query, /gsc:sitemaps, /gsc:inspect, /gsc:report. Jeden klucz robota obsługuje usługi z wielu kont Google (rejestr --client). Standalone i jako moduł GSC dla seodyseusz.",
       "repository": "https://github.com/aleksanderarielnowak/seodyseusz-gsc",
       "license": "MIT",
-      "keywords": ["seo", "google-search-console", "gsc", "audit", "search-analytics", "seodyseusz"]
+      "keywords": [
+        "seo",
+        "google-search-console",
+        "gsc",
+        "audit",
+        "search-analytics",
+        "seodyseusz"
+      ]
     },
     {
       "name": "claude-codex-webdev-inc",
-      "source": { "source": "github", "repo": "aleksanderarielnowak/claude-codex-webdev-inc" },
+      "source": {
+        "source": "github",
+        "repo": "aleksanderarielnowak/claude-codex-webdev-inc"
+      },
       "description": "Buduje i modyfikuje strony WordPress od zera — od źródła o firmie (WWW/social/GMB/NIP) przez research po gotową, edytowalną stronę. Metoda nadrzędna: budowa SEKCJAMI komponentami buildera (plan sekcji → sekcja po sekcji → weryfikacja po każdej), z drabiną wykonania builder → builder+wtyczka → blok HTML jako udokumentowany wyjątek. Domyślnie natywny Elementor, z autonomicznym wyborem innego stosu (Bricks, Divi, Breakdance, Oxygen, Blocksy, GeneratePress, Kadence, WooCommerce) gdy brief tego wymaga. Playbooki branżowe, biblioteka sekcji, hardened recipes i QA headless. Współpracuje z claude-codex-synapse.",
       "repository": "https://github.com/aleksanderarielnowak/claude-codex-webdev-inc",
       "license": "MIT",
-      "keywords": ["wordpress", "elementor", "gutenberg", "webdev", "site-builder", "gmb", "local-wp", "codex", "synapse"]
+      "keywords": [
+        "wordpress",
+        "elementor",
+        "gutenberg",
+        "webdev",
+        "site-builder",
+        "gmb",
+        "local-wp",
+        "codex",
+        "synapse"
+      ]
+    },
+    {
+      "name": "nova",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aleksanderarielnowak/nova-ai.git",
+        "path": "nova"
+      },
+      "description": "NOVA — dyrygent sieci wlasnosci internetowych. Prowadzi budowe i eksploatacje serwisu przez sesc etapow z bramkami: zatrudnia role, zamyka zamki etapow, mierzy wynik liczbami i trzyma stan przebiegu w teczce wlasnosci. Wazne pliki maja trwale miejsce: stan sieci jedzie gitem, material sieci - lustrem na Dysku Google.",
+      "repository": "https://github.com/aleksanderarielnowak/nova-ai"
+    },
+    {
+      "name": "nova-pracownia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aleksanderarielnowak/nova-ai.git",
+        "path": "nova-pracownia"
+      },
+      "description": "NOVA Pracownia - warsztat mediowy sieci NOVA: Grafik i Rezyser. Biblioteka stockowa, generowanie kadrow i ujec przez fal.ai, montaz ffmpeg. Jedyna wtyczka wydajaca prawdziwe pieniadze, wiec z wlasnym cennikiem, licznikiem wydatku i limitem przebiegu. To, co wytworzy, jest materialem sieci - a material ma swoje trwale miejsce na Dysku Google.",
+      "repository": "https://github.com/aleksanderarielnowak/nova-ai"
+    },
+    {
+      "name": "seo-sztafeta",
+      "source": {
+        "source": "github",
+        "repo": "aleksanderarielnowak/seo-sztafeta"
+      },
+      "description": "Przekazuje watki Claude Code miedzy komputerami przez Dysk Google.",
+      "repository": "https://github.com/aleksanderarielnowak/seo-sztafeta"
     }
   ]
 }
