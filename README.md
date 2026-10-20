@@ -21,6 +21,7 @@ Aktualizacja listy: `/plugin marketplace update alek-claude-plugins`
 | **nova** | Dyrygent sieci własności internetowych NOVA: budowa i eksploatacja serwisu w sześciu etapach z bramkami, role, zamki etapów, stan w teczce własności. | `aleksanderarielnowak/nova-ai` (katalog `nova/`) |
 | **nova-pracownia** | Warsztat mediowy NOVA: Grafik i Reżyser. Biblioteka stockowa, kadry i ujęcia przez fal.ai, montaż ffmpeg, z cennikiem i limitem wydatku. | `aleksanderarielnowak/nova-ai` (katalog `nova-pracownia/`) |
 | **seo-sztafeta** | Przekazuje wątki Claude Code między komputerami przez Dysk Google (pałeczki). | `aleksanderarielnowak/seo-sztafeta` |
+| **ecomersiak** | Agent do prowadzenia sklepów internetowych (dropshipping pod własnymi markami): research popytu na Allegro w TradeWatch, research hurtowni z dropshippingiem, cena i marża na sztuce. Właściciel nadaje kierunek, agent daje dane. | `aleksanderarielnowak/ecomersiak` (katalog `ecomersiak/`, repo prywatne) |
 
 ## Dodanie nowego pluginu (na przyszłość)
 

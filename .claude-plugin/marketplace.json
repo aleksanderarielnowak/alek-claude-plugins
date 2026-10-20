@@ -92,6 +92,25 @@
       },
       "description": "Przekazuje watki Claude Code miedzy komputerami przez Dysk Google.",
       "repository": "https://github.com/aleksanderarielnowak/seo-sztafeta"
+    },
+    {
+      "name": "ecomersiak",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aleksanderarielnowak/ecomersiak.git",
+        "path": "ecomersiak"
+      },
+      "description": "Ecomersiak — agent do prowadzenia sklepów internetowych (dropshipping pod własnymi markami: sklep, Allegro, marketplace'y, płatne promocje). Właściciel nadaje kierunek, agent daje dane i narzędzia. Skille: TradeWatch Research (popyt na Allegro), Research hurtowni (dropshipping, zasady, wysyłka) oraz Cena i marża (marża na sztuce dla Allegro i sklepu).",
+      "repository": "https://github.com/aleksanderarielnowak/ecomersiak",
+      "license": "MIT",
+      "keywords": [
+        "ecommerce",
+        "dropshipping",
+        "allegro",
+        "tradewatch",
+        "hurtownie",
+        "marza"
+      ]
     }
   ]
 }
