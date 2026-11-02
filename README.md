@@ -21,6 +21,7 @@ Aktualizacja listy: `/plugin marketplace update alek-claude-plugins`
 | **nova-pracownia** | Warsztat mediowy NOVA: Grafik i Reżyser. Biblioteka stockowa, kadry i ujęcia przez fal.ai, montaż ffmpeg, z cennikiem i limitem wydatku. | `aleksanderarielnowak/nova-ai` (katalog `nova-pracownia/`) |
 | **seo-sztafeta** | Przekazuje wątki Claude Code między komputerami przez Dysk Google (pałeczki). | `aleksanderarielnowak/seo-sztafeta` |
 | **ecomersiak** | Agent do prowadzenia sklepów internetowych (dropshipping pod własnymi markami): research popytu na Allegro w TradeWatch, research hurtowni z dropshippingiem, cena i marża na sztuce. Właściciel nadaje kierunek, agent daje dane. | `aleksanderarielnowak/ecomersiak` (katalog `ecomersiak/`, repo prywatne) |
+| **speedseusz** | Podnosi wynik PageSpeed Insights do progów (mobile najgorszy z 5 ≥ 90, dostępność/SEO/sprawdzone metody 100): pomiar PSI i Lighthouse, diagnoza, poprawki z kopią i pomiarem po każdej, test sklepu, karta case'a i baza receptur. | `aleksanderarielnowak/speedseusz` (katalog `speedseusz/`, repo prywatne) |
 
 ## Dodanie nowego pluginu (na przyszłość)
 

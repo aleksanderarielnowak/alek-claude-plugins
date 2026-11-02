@@ -90,6 +90,23 @@
         "hurtownie",
         "marza"
       ]
+    },
+    {
+      "name": "speedseusz",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aleksanderarielnowak/speedseusz.git",
+        "path": "speedseusz"
+      },
+      "description": "Speedseusz — podnosi wynik PageSpeed Insights strony do progów (mobile najgorszy z 5 ≥ 90, dostępność, SEO i sprawdzone metody 100): pomiar PSI i Lighthouse, diagnoza, poprawki z kopią i pomiarem po każdej, test sklepu, karta case'a i baza receptur, która rośnie z każdą stroną.",
+      "repository": "https://github.com/aleksanderarielnowak/speedseusz",
+      "keywords": [
+        "pagespeed",
+        "lighthouse",
+        "core-web-vitals",
+        "wordpress",
+        "performance"
+      ]
     }
   ]
 }
